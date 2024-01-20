@@ -18,6 +18,5 @@ const getRequiredStructure = async () => {
     }
 }
 
-
 getRequiredStructure()
     .then(data => writeOjbToJSON(data, outputFilePath))
